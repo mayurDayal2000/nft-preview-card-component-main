@@ -30,8 +30,8 @@ Your users should be able to:
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/mayurDayal2000/nft-preview-card-component-main](https://github.com/mayurDayal2000/nft-preview-card-component-main)
+- Live Site URL: [https://mayurdayal2000.github.io/nft-preview-card-component-main/](https://mayurdayal2000.github.io/nft-preview-card-component-main/)
 
 
 ## Built with
