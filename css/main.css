@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --soft_blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --main_BG: hsl(217, 54%, 11%);
+  --card_BG: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+#root {
+  width: 100%;
+  display: grid;
+  place-content: center;
+  padding: 1.5rem;
+  background-color: var(--main_BG);
+}
+
+/* height fix */
+@media screen and (min-height: 700px) {
+  #root {
+    height: 100vh;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  height: fit-content;
+  padding: 1.3rem;
+  background-color: var(--card_BG);
+  border-radius: 20px;
+}
+
+.container img[alt="image equilibrium"] {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.container h1 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  color: var(--White);
+  margin: 1.1rem 0 0.8rem;
+}
+
+.container h1:hover {
+  cursor: pointer;
+  color: var(--cyan);
+}
+
+.container p {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: var(--soft_blue);
+
+  line-height: 1.5;
+  margin-bottom: 0.6rem;
+}
+
+.container ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.container li {
+  display: flex;
+  align-items: center;
+}
+
+.container li h2,
+.container li p {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--cyan);
+  margin-left: 8px;
+}
+
+.container li p {
+  color: var(--soft_blue);
+  margin-bottom: 0;
+}
+
+.container hr {
+  color: var(--line);
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+img[alt="Jules Wyvern"] {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--White);
+}
+
+.creator p {
+  margin-bottom: 0;
+  font-size: 16px;
+  margin-left: 1rem;
+}
+
+.creator strong {
+  color: var(--White);
+}
+
+.creator strong:hover {
+  cursor: pointer;
+  color: var(--cyan);
+}
+
+.attribution {
+  margin-top: 1rem;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  color: var(--White);
+}
+
+.attribution a {
+  color: var(--soft_blue);
+}
+
+.attribution strong {
+  color: var(--cyan);
+}
