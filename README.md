@@ -25,7 +25,7 @@ Your users should be able to:
 ![desktop screenshot](./images/desktop.png)
 
 ### active states screenshot
-![active states screenshot]()
+<img src="./images/active states.gif" alt="active states">
 
 
 ## Links
@@ -38,9 +38,11 @@ Your users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
+- CSS Position
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+
 
 ## Author
 
